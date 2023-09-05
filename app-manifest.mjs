@@ -24,6 +24,7 @@ export default {
     'cz.config.cjs',
     'pnpm-lock.yaml',
     'CHANGELOG.md',
+    'LICENSE',
   ],
   dependencies: [
     '@element-plus/icons-vue',
