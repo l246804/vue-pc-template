@@ -4,7 +4,7 @@
     "commitMessage": "release: v${version}"
   },
   "npm": {
-    "publish": true
+    "publish": false
   },
   "gitlab": {
     "release": false,
