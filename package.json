@@ -1,7 +1,7 @@
 {
   "name": "vue-pc-template",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "A PC template based-on Vue.",
   "author": "RayHao <https://github.com/l246804>",
