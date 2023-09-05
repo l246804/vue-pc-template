@@ -1,0 +1,19 @@
+// hack style
+@use './vars.scss' as *;
+
+.el-card {
+  // flex mode
+  &.is-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &.is-flex &__header {
+    flex: 0 0 auto;
+  }
+
+  &.is-flex &__body {
+    flex: 1;
+    overflow: auto;
+  }
+}
