@@ -17,9 +17,6 @@ const defaultOpeneds = route.matched.map((m) => m.path)
 <template>
   <ElMenu
     class="the-menu"
-    background-color="transparent"
-    active-text-color="#409EFF"
-    text-color="#fff"
     :router="true"
     :unique-opened="true"
     :default-active="defaultActive"

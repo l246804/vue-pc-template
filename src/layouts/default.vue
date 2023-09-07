@@ -11,7 +11,7 @@ import TheMenu from './components/TheMenu.vue'
     direction="horizontal"
   >
     <ElAside
-      width="240px"
+      width="200px"
       class="aside"
     >
       <ElScrollbar class="menu-container">
@@ -40,15 +40,15 @@ $header-height: 60px;
   overflow: hidden;
 
   .aside {
-    background: rgb(72 87 109);
-
     .menu-container {
       max-height: calc(100% - $header-height);
     }
   }
 
   .main {
+    position: relative;
     overflow: hidden;
+    background-color: var(--el-bg-color-page);
   }
 }
 

@@ -17,3 +17,37 @@
     overflow: auto;
   }
 }
+
+.el-form.is-no-mb :not(.is-has-mb).el-form-item,
+.el-form-item.is-no-mb {
+  margin-bottom: 0;
+}
+
+.el-tabs {
+  $margin: var(--el-tabs-header-margin, 12px);
+
+  .el-tabs__header {
+    margin: 0 0 $margin;
+  }
+
+  &--bottom .el-tabs__header.is-bottom {
+    margin-top: $margin;
+    margin-bottom: 0;
+  }
+
+  &.is-flex {
+    height: 100%;
+
+    > .el-tabs__content,
+    > .el-tabs__content > .el-tab-pane {
+      height: 100%;
+    }
+    
+    &.el-tabs--top,
+    &.el-tabs--bottom {
+      > .el-tabs__content {
+        height: calc(100% - var(--el-tabs-header-height) - $margin);
+      }
+    }
+  }
+}

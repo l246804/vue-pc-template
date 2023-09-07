@@ -2,26 +2,26 @@
 import { getFullURL } from '@rhao/web-utils'
 
 defineOptions({
-  name: 'LayoutTitle',
+  name: 'LayoutHeaderTitle',
 })
 
 const logoSrc = getFullURL(__ENV__.VITE_APP_ICON)
-const text = __ENV__.VITE_APP_TITLE
+const title = __ENV__.VITE_APP_TITLE
 </script>
 
 <template>
   <ElLink
     href="/"
     class="the-title"
-    :title="text"
+    :title="title"
     :underline="false"
   >
-    <img
+    <ElAvatar
       class="logo"
+      :size="20"
       :src="logoSrc"
-      alt="logo"
-    >
-    <span class="text">{{ text }}</span>
+    />
+    <span class="title">{{ title }}</span>
   </ElLink>
 </template>
 
@@ -30,17 +30,14 @@ const text = __ENV__.VITE_APP_TITLE
   height: 50px;
 
   .logo {
-    $size: 30px;
-
-    width: $size;
-    height: $size;
+    background-color: transparent;
   }
 
-  .text {
+  .title {
     color: #fff;
   }
 
-  .logo + .text {
+  .logo + .title {
     margin-left: 10px;
   }
 }
