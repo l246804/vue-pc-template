@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/l246804/vue-pc-template/compare/v0.0.4...v0.0.5) (2023-09-11)
+
+
+### Chores
+
+* 🤖 优化模板 ([211f53e](https://github.com/l246804/vue-pc-template/commit/211f53e4fefa686c4f7b831a1f5cbf6809d9fb4b))
+
 ## [0.0.4](https://github.com/l246804/vue-pc-template/compare/v0.0.3...v0.0.4) (2023-09-11)
 
 
