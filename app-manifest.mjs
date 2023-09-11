@@ -1,3 +1,9 @@
+import { readFileSync } from 'node:fs'
+import { safeJSONParse } from '@rhao/lodash-x'
+
+const pkg = safeJSONParse(readFileSync('./package.json', { encoding: 'utf-8' }), {})
+const { dependencies = {} } = pkg
+
 /**
  * @type {import('@rhao/plop-generators').AppGeneratorManifest}
  */
@@ -26,29 +32,7 @@ export default {
     'CHANGELOG.md',
     'LICENSE',
   ],
-  dependencies: [
-    '@element-plus/icons-vue',
-    '@rhao/lodash-x',
-    '@rhao/request',
-    '@rhao/request-basic-middleware',
-    '@rhao/request-middleware-axios',
-    '@rhao/request-middleware-vue',
-    '@rhao/web-utils',
-    '@vueuse/core',
-    '@vueuse/head',
-    'axios',
-    'date-fns',
-    'echarts',
-    'element-plus',
-    'lodash-es',
-    'normalize.css',
-    'pinia',
-    'pinia-plugin-persistedstate',
-    'vue',
-    'vue-app-sdk',
-    'vue-echarts',
-    'vue-router',
-  ],
+  dependencies: Object.keys(dependencies),
   devDependencies: [
     '@rhao/types-base',
     '@rhao/vite-toolkit',
