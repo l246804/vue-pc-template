@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/l246804/vue-pc-template/compare/v0.0.5...v0.0.6) (2023-09-14)
+
+
+### Chores
+
+* 🤖 update deps ([a77c7fd](https://github.com/l246804/vue-pc-template/commit/a77c7fd042fed25441a69036fa86d9da1959fda8))
+
 ## [0.0.5](https://github.com/l246804/vue-pc-template/compare/v0.0.4...v0.0.5) (2023-09-11)
 
 
