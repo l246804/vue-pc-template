@@ -14,7 +14,6 @@ export default {
     preview: 'vite preview',
     plop: 'plop',
     'type-check': 'vue-tsc --noEmit',
-    cz: 'cz',
   },
   removeFiles: [
     '.git',
