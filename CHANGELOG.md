@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.7](https://github.com/l246804/vue-pc-template/compare/v0.0.6...v0.0.7) (2023-09-18)
+
+
+### Chores
+
+* 🤖 app-manifest.mjs 移除 cz 命令 ([83eff96](https://github.com/l246804/vue-pc-template/commit/83eff96994d8f422d0cc3b3569716bf811231526))
+
 ## [0.0.6](https://github.com/l246804/vue-pc-template/compare/v0.0.5...v0.0.6) (2023-09-14)
 
 
