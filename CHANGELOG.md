@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.8](https://github.com/l246804/vue-pc-template/compare/v0.0.7...v0.0.8) (2023-09-19)
+
+
+### Bug Fixes
+
+* 🐛 修复 BaseService.buildURL 拼接错误 ([c789506](https://github.com/l246804/vue-pc-template/commit/c789506483991316677419a89ae1d8386bcf798d))
+
+
+### Chores
+
+* 🤖 优化 Request 配置 ([e9ebabc](https://github.com/l246804/vue-pc-template/commit/e9ebabc73b35e643ad67e0273c88ec0b657f7caf))
+
 ## [0.0.7](https://github.com/l246804/vue-pc-template/compare/v0.0.6...v0.0.7) (2023-09-18)
 
 
